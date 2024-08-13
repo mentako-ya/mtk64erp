@@ -42,7 +42,7 @@ Registered in [remap-keys.app](https://remap-keys.app/catalog/heEVSWdH2LCyxbQcQW
     OLED    : SSD1306 128X64 
     Trackball sensor : PMW3389
     Encoder : EC12D
-* Hardware Availability: https://jp.mercari.com/search?keyword=mentako-ya
+* Hardware Availability: https://mentako-ya.myshopify.com/products/mtk64erp
 
 ## Firmware
 [mtk_mtk64erp_via.uf2](firmware/mtk_mtk64erp_via.uf2)
