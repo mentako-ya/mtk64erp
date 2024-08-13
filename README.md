@@ -33,6 +33,9 @@ Chock V1/ [V2 (with out fixed pin model)](https://ja.aliexpress.com/item/1005007
 <img src="image/cpi_test.png" width="80%" style="border: 1px solid;"/><br>
 Higher polling rates with new qmk_firmware and RP2040 MCU
 
+<img src="image/remap/remap_catalog.png" width="80%" style="border: 1px solid;"/><br>
+Registered in [remap-keys.app](https://remap-keys.app/catalog/heEVSWdH2LCyxbQcQWwg) You can change keymaps, save, share, and restore configured keymaps.
+
 * Keyboard Maintainer: [mentako-ya](https://github.com/mentako-ya)
 * Hardware Supported: 
     MCU     : RP2040
@@ -76,12 +79,6 @@ You can change the key mapping using https://remap-keys.app/configure
     <img src="image/remap/remap_1.png" width="60%" style="border: 1px solid;"/>
 
     <img src="image/remap/remap_2.png" width="60%" style="border: 1px solid;"/>
-
- 1. Upload [mtk64erp_via.json](firmware/mtk64erp_via.json)   
-
-    <img src="image/remap/remap_3.png" width="60%" style="border: 1px solid;"/>
-
-    <img src="image/remap/remap_4.png" width="60%" style="border: 1px solid;"/>
  
  1. Map any key to layers 0~7
 * Layer 0       Normal key
