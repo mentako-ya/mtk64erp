@@ -1,10 +1,10 @@
-[English](README.en.md)
+[日本語](README.md)
 
 # mtk64erp
 
-mtk64erp は、親指で操作するトラックボールとロータリーエンコーダーを備えた自作キーボードです
+mtk64erp is homebrew keyboard with thumb operated trackball & rotary encoder.
 
-## オンラインストア
+## Online store
 https://mentako-ya.myshopify.com
 
 <img src="image/mtk64erp_top.jpg" width="80%" style="border: 1px solid;"/>
@@ -16,32 +16,32 @@ https://mentako-ya.myshopify.com
 <img src="image/mtk64erp_right.jpg" width="80%" style="border: 1px solid;"/>
 
 <img src="image/mtk64erp_back.jpg" width="80%" style="border: 1px solid;"/><br>
-アンダーグローLED
+undergrow LED
 
 <img src="image/mtk64erp_thumb.jpg" width="80%" style="border: 1px solid;"/><br>
-追加の親指キースイッチは低くオフセットされています
+Extra thumb keyswitches are offset lower
 
 <img src="image/mtk64erp_oled.jpg" width="80%" style="border: 1px solid;"/><br>
-OLED 128X64, レイヤー表示LED、リセットボタン
+OLED 128X64, Leyer indicator LED, Reset button
 
 <img src="image/mtk64erp_encoder.jpg" width="80%" style="border: 1px solid;"/><br>
-Alps alpine 低背エンコーダー、30クリック、プッシュスイッチ付き
+Alps alpine low hight encoder, 30 click with push switch
 
 <img src="image/mtk64erp_ballcase.jpg" width="80%" style="border: 1px solid;"/><br>
-PMW3389 トラックボールセンサーはキー押下時の干渉を避けるために低くオフセット
+PMW3389 trackball sensor, Offset low to avoid interfering with keystrokes
 
 <img src="image/mtk64erp_switches.jpg" width="80%" style="border: 1px solid;"/><br>
 <a href="https://ja.aliexpress.com/item/1005007361067887.html"><img src="image/kailh_v2_deepsea.png" width="40%" style="border: 1px solid;"/></a>
 <a href="https://ja.aliexpress.com/item/1005007404357477.html"><img src="image/kailh_v2_shadow.png" width="40%" style="border: 1px solid;"/></a><br>
-Chock V1/ [V2 (with out fixed pin model)](https://ja.aliexpress.com/item/1005007361067887.html) / MX互換キースイッチを全キーに取り付け可能
+Chock V1/ [V2 (with out fixed pin model)](https://ja.aliexpress.com/item/1005007361067887.html) / MX compatible key switch can be installed on all keys
 
 <img src="image/cpi_test.png" width="80%" style="border: 1px solid;"/><br>
-新しい qmk_firmware と RP2040 MCU によるポーリング レートの向上
+Higher polling rates with new qmk_firmware and RP2040 MCU
 
 <img src="image/remap/remap_catalog.png" width="80%" style="border: 1px solid;"/><br>
-[remap-keys.app](https://remap-keys.app/catalog/heEVSWdH2LCyxbQcQWwg) に登録 キーマップの変更、設定したキーマップの保存、共有、復元が可能
+Registered in [remap-keys.app](https://remap-keys.app/catalog/heEVSWdH2LCyxbQcQWwg) You can change keymaps, save, share, and restore configured keymaps.
 
-* サポートされているハードウェア: 
+* Hardware Supported: 
 
     MCU     : RP2040
 
@@ -51,16 +51,16 @@ Chock V1/ [V2 (with out fixed pin model)](https://ja.aliexpress.com/item/1005007
 
     Encoder : Alps alpine EC12D
 
-## ビルドムービー
+## Build movie
 https://www.youtube.com/playlist?list=PL_GJMtxZ-TgrWXYJNq9W5JQL1H6cIPeTs
 
-## ファームウェア
+## Firmware
 [mtk_mtk64erp_via.uf2](firmware/mtk_mtk64erp_via.uf2)
 
 ### via.json
 [mtk64erp_via.json](firmware/mtk64erp_via.json)
 
-### ソースコード
+### Source code
 https://github.com/mentako-ya/qmk_firmware/tree/master/keyboards/mtk/mtk64erp
 
 Make example for this keyboard (after setting up your build environment):
@@ -74,67 +74,67 @@ Flashing example for this keyboard:
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. 
 Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
-### ブートローダー
+### Bootloader
 
-2 つの方法でブートローダーに入る:
+Enter the bootloader in 2 ways:
 
-* **物理リセットボタン**: リセットボタンを短く2回押す
-* **レイアウト内のキーコード**: `QK_BOOT` にマッピングされたキーを押す
+* **Physical reset button**: Press the reset button twice briefly
+* **Keycode in layout**: Press the key mapped to `QK_BOOT`
 
-## キーマッピング
-https://remap-keys.app/configure を使用してキー マッピングを変更可能
+## Key mapping
+You can change the key mapping using https://remap-keys.app/configure
 
- 1. キーボードを接続する
+ 1. connect keyboard
 
     <img src="image/remap/remap_1.png" width="60%" style="border: 1px solid;"/>
 
     <img src="image/remap/remap_2.png" width="60%" style="border: 1px solid;"/>
  
- 1. 任意のキーをレイヤー0~7にマッピング
-* Layer 0       通常のキー
+ 1. Map any key to layers 0~7
+* Layer 0       Normal key
 
     <img src="image/remap/remap_layer0.png" width="60%" style="border: 1px solid;"/>
 
-* Layer 1       Shiftキーによる入力に相当
+* Layer 1       Equivalent to input with Shift key
 
     <img src="image/remap/remap_layer1.png" width="60%" style="border: 1px solid;"/>
 
-* Layer 2       マウスボタン、カーソルキー
+* Layer 2       Mouse buttons, cursor keys
 
     <img src="image/remap/remap_layer2.png" width="60%" style="border: 1px solid;"/>
 
-* Layer 3       トラックボール設定 (カスタム キーコードを参照)、LED 設定、トラックボールをスクロール モードに切り替え
+* Layer 3       Trackball settings(see cusom keycord), LED setting, Trackball is in scroll mode
 
     <img src="image/remap/remap_layer3.png" width="60%" style="border: 1px solid;"/>
 
-* Layer 4..6    未使用、任意のキーコードを設定可能
+* Layer 4..6    unused, any key code can be set
 
     <img src="image/remap/remap_layer4to6.png" width="60%" style="border: 1px solid;"/>
 
-* Layer 7       自動マウスレイヤー
+* Layer 7       Auto mouse layer
 
     <img src="image/remap/remap_layer7.png" width="60%" style="border: 1px solid;"/>
 
 ### Cusom keycode
-    KBC_LOAD,       // EEPROM からの設定ロード
-    KBC_SAVE,       // EEPROM に設定を保存
+    KBC_LOAD,       // Configuration load from EEPROM
+    KBC_SAVE,       // Configuration save to EEPROM
     CPI_I100,       // CPI +100 CPI
     CPI_D100,       // CPI -100 CPI
     CPI_I1K,        // CPI +1000 CPI
     CPI_D1K,        // CPI -1000 CPI
-    SCRL_TO,        // スクロールモードのオン/オフを切り替え
-    SCRL_MO,        // 押下中スクロールモード
-    SCRL_INV,       // スクロール方向を反転
-    SCRL_DVI,       // スクロール分割値を増加
-    SCRL_DVD,       // スクロール分割値を減少
-    AM_TG,          // 自動マウスレイヤーのオン/オフを切り替え
-    AM_TOUT_INC,    // 自動マウスレイヤーのタイムアウトを増加
-    AM_TOUT_DEC,    // 自動マウスレイヤーのタイムアウトを減少
+    SCRL_TO,        // Toggle scroll mode ON/OFF
+    SCRL_MO,        // Momentary scroll mode
+    SCRL_INV,       // Invert scroll direction
+    SCRL_DVI,       // Increment scroll divider
+    SCRL_DVD,       // Decrement scroll divider
+    AM_TG,          // Toggle auto mouse layer ON/OFF
+    AM_TOUT_INC,    // Increment AUTO_MOUSE_TIME_OUT
+    AM_TOUT_DEC,    // Decrement AUTO_MOUSE_TIME_OUT
 
-## ケースデータ
+## Case data
 <img src="image/mtk64erp_render_enc1.png" width="40%" style="border: 1px solid;"/>
 <img src="image/mtk64erp_render_ball1.png" width="40%" style="border: 1px solid;"/><br>
 <img src="image/mtk64erp_render_enc2.png" width="40%" style="border: 1px solid;"/>
 <img src="image/mtk64erp_render_ball2.png" width="40%" style="border: 1px solid;"/><br>
 
-ケースデータのダウンロードは[こちら](casedata/mtk64erp_STL) 
+Case data download from [here](casedata/mtk64erp_STL)
