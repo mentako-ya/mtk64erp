@@ -2,7 +2,7 @@
 
 # mtk64erp
 
-mtk64erp is homebrew keyboard with thumb operated trackball & rotary encoder.
+homebrew keyboard with thumb operated trackball & rotary encoder.
 
 ## Online store
 https://mentako-ya.myshopify.com

@@ -2,7 +2,7 @@
 
 # mtk64erp
 
-mtk64erp は、親指で操作するトラックボールとロータリーエンコーダーを備えた自作キーボードです
+親指操作トラックボールとロータリーエンコーダー付き自作キーボード
 
 ## オンラインストア
 https://mentako-ya.myshopify.com
@@ -19,7 +19,7 @@ https://mentako-ya.myshopify.com
 アンダーグローLED
 
 <img src="image/mtk64erp_thumb.jpg" width="80%" style="border: 1px solid;"/><br>
-追加の親指キースイッチは低くオフセットされています
+追加の親指キースイッチは低くオフセットされている
 
 <img src="image/mtk64erp_oled.jpg" width="80%" style="border: 1px solid;"/><br>
 OLED 128X64, レイヤー表示LED、リセットボタン
