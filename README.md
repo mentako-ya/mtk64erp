@@ -7,13 +7,25 @@
 ## オンラインストア
 https://mentako-ya.myshopify.com
 
-<img src="image/mtk64erp_top.jpg" width="80%" style="border: 1px solid;"/>
+<img src="image/mtk64erp_footswitch_1.jpg" width="80%" style="border: 1px solid;"/>
 
 <img src="image/mtk64erp_front.jpg" width="80%" style="border: 1px solid;"/>
 
 <img src="image/mtk64erp_left.jpg" width="80%" style="border: 1px solid;"/>
 
 <img src="image/mtk64erp_right.jpg" width="80%" style="border: 1px solid;"/>
+
+キーキャップMX互換:[CORSAIR PBT DOUBLE-SHOT 交換用カラーキーキャップセット - 日本語108キー, Arctic White - CH-9911040-JP](https://amzn.asia/d/1FShFiO)
+
+キーキャップChocV2:[XVX ロープロファイル PBT キーキャップ](https://amzn.asia/d/7V1A6T4)
+
+キーキャップChocV1:[Chocfox CFX keycap](https://chosfox.com/products/chocfox-cfx-choc-keycaps?bg_ref=3KtshOemT6)
+
+トラックボール：[ぺリックス PERIPRO-303WH 34mm](PERIPRO-303WH)
+
+TRRSケーブル：https://shop.dailycraft.jp/products/trrs_cable_50_gloss
+
+USB Type-cケーブル：https://amzn.asia/d/h8pfZIJ
 
 <img src="image/mtk64erp_back.jpg" width="80%" style="border: 1px solid;"/><br>
 アンダーグローLED
@@ -34,6 +46,12 @@ PMW3389 トラックボールセンサーはキー押下時の干渉を避ける
 <a href="https://ja.aliexpress.com/item/1005007361067887.html"><img src="image/kailh_v2_deepsea.png" width="40%" style="border: 1px solid;"/></a>
 <a href="https://ja.aliexpress.com/item/1005007404357477.html"><img src="image/kailh_v2_shadow.png" width="40%" style="border: 1px solid;"/></a><br>
 Chock V1/ [V2 (with out fixed pin model)](https://ja.aliexpress.com/item/1005007361067887.html) / MX互換キースイッチを全キーに取り付け可能
+
+<img src="image/mtk64erp_footswitch_2.jpg" width="80%" style="border: 1px solid;"/><br>  
+<img src="image/mtk64erp_footswitch_4.jpg" width="40%" style="border: 1px solid;"/>
+<img src="image/mtk64erp_footswitch_5.jpg" width="36%" style="border: 1px solid;"/><br>
+フットスイッチ拡張キット<br>
+[市販のUSBフットスイッチ](https://amzn.asia/d/h7wMR24)の基板と差し替えてmtk64erpに接続
 
 <img src="image/cpi_test.png" width="80%" style="border: 1px solid;"/><br>
 新しい qmk_firmware と RP2040 MCU によるポーリング レートの向上
