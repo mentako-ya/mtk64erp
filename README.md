@@ -7,6 +7,9 @@
 ## オンラインストア
 https://mentako-ya.myshopify.com
 
+## News
+[しんぴのモノローグ](https://shinpi-gadget.com/)様にて[mtk64erpのレビュー](https://shinpi-gadget.com/mtk64erp-review/)をご掲載いただきました
+
 <img src="image/mtk64erp_footswitch_1.jpg" width="80%" style="border: 1px solid;"/>
 
 <img src="image/mtk64erp_front.jpg" width="80%" style="border: 1px solid;"/>
@@ -21,7 +24,7 @@ https://mentako-ya.myshopify.com
 
 キーキャップChocV1:[Chocfox CFX keycap](https://chosfox.com/products/chocfox-cfx-choc-keycaps?bg_ref=3KtshOemT6)
 
-トラックボール：[ぺリックス PERIPRO-303WH 34mm](PERIPRO-303WH)
+トラックボール：[ぺリックス PERIPRO-303WH 34mm](https://amzn.asia/d/1paUF5C)
 
 TRRSケーブル：https://shop.dailycraft.jp/products/trrs_cable_50_gloss
 
