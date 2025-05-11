@@ -8,6 +8,8 @@
 https://mentako-ya.myshopify.com
 
 ## News
+[くま536](https://x.com/kuma534)様にて[mtk64erpカスタムファームウェア](https://note.com/bright_boar9743)をご掲載いただきました
+
 [しんぴのモノローグ](https://shinpi-gadget.com/)様にて[mtk64erpのレビュー](https://shinpi-gadget.com/mtk64erp-review/)をご掲載いただきました
 
 <img src="image/mtk64erp_footswitch_1.jpg" width="80%" style="border: 1px solid;"/>
